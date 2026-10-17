@@ -5,12 +5,12 @@ import ProductScreen from './src/screens/ProductScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <ProductScreen />
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+  <View style={styles.container}>
+    <ProductScreen />
+    <Text>Deuxième modification</Text>
+    <StatusBar style="auto" />
+  </View>
+);
 
 const styles = StyleSheet.create({
   container: {
